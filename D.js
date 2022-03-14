@@ -3859,12 +3859,12 @@ var buttonss = [
 
 buttonMessagee = {
 contentText: ini_gopayy,
-footerText: `©DEFF` ,
+footerText: `©VANZZ` ,
 buttons: buttonss,
 headerType: 1
 }
 deff.sendMessage(from,  buttonMessagee, MessageType.buttonsMessage,{
-        caption: '[ • BOTWEA • ]',
+        caption: '[ • BOTWA • ]',
         "contextInfo": {
             text: 'hi',
             "forwardingScore": 1000000000,
@@ -3947,8 +3947,8 @@ if (!isUser) return sendButMessage(from, a, b, ton,{quoted : freply})
         let di = await getBuffer(ac);
         buttons = [{buttonId: `${prefix + command}`,buttonText:{displayText: `➡️Next`},type:1}]
               imageMsg = (await deff.prepareMessageMedia(di, "imageMessage", { thumbnail: di, })).imageMessage
-              buttonsMessage = {footerText:'[ • BOTWEA • ]︎', imageMessage: imageMsg,
-              contentText:`Follow ig owner @BY DEFF`,buttons,headerType:4}
+              buttonsMessage = {footerText:'[ • BOTWA • ]︎', imageMessage: imageMsg,
+              contentText:`Follow ig owner @BY VANZZ OFC`,buttons,headerType:4}
               prep = await deff.prepareMessageFromContent(from,{buttonsMessage},{quoted: ftroli})
               deff.relayWAMessage(prep)
         break
@@ -4030,12 +4030,12 @@ if (isMedia && !mek.message.videoMessage || isQuotedImage) {
 let encmedia = isQuotedImage ? JSON.parse(JSON.stringify(mek).replace('quotedM','m')).message.extendedTextMessage.contextInfo : mek
 bc = await deff.downloadMediaMessage(encmedia)
 for (let _ of anu) {
-deff.sendMessage(_.jid, bc, image, {quoted:ftroli,caption: `*「 BROADCAST [ • BOTWEA • ] 」*\n\n${body.slice(4)}`})
+deff.sendMessage(_.jid, bc, image, {quoted:ftroli,caption: `*「 BROADCAST [ • BOT WHATSAPP • ] 」*\n\n${body.slice(4)}`})
 }
 reply('Suksess broadcast')
 } else {
 for (let _ of anu) {
-sendMess(_.jid, `*「 BOTWEA BROADCAST 」*\n\n${body.slice(4)}`)
+sendMess(_.jid, `*「 BOT WHATSAPP BROADCAST 」*\n\n${body.slice(4)}`)
 }
 reply('Suksess broadcast')
 }
@@ -4053,14 +4053,14 @@ if (!isUser) return sendButMessage(from, a, b, ton,{quoted : freply})
              let encmedia = isQuotedImage ? JSON.parse(JSON.stringify(mek).replace('quotedM','m')).message.extendedTextMessage.contextInfo : mek
              bc = await deff.downloadMediaMessage(encmedia)
              for (let _ of anu) {
-             deff.sendMessage(_.jid, bc, image, {quoted:freply,caption: `*「 BROADCAST [ • BOTWEA • ] 」*\n\n${body.slice(4)}`})
+             deff.sendMessage(_.jid, bc, image, {quoted:freply,caption: `*「 BROADCAST [ • BOT WHATSAPP • ] 」*\n\n${body.slice(4)}`})
 }
              reply('Suksess broadcast')
              } else {
              for (let _ of anu) {
 deff.sendMessage(_.jid, 
-	    {"contentText": `*「 BROADCAST [ • BOTWEA • ] 」*\n\n${body.slice(4)}`,
-	    "footerText": '©DEFF',
+	    {"contentText": `*「 BROADCAST [ • BOT WHATSAPP • ] 」*\n\n${body.slice(4)}`,
+	    "footerText": '©VANZZ OFC',
 	    "buttons": [
 	    {"buttonId": `!owner`,
 	    "buttonText": {"displayText": "OWNER"
@@ -4083,7 +4083,7 @@ if (!isUser) return sendButMessage(from, a, b, ton,{quoted : freply})
              let encmedia = isQuotedImage ? JSON.parse(JSON.stringify(mek).replace('quotedM','m')).message.extendedTextMessage.contextInfo : mek
              bc2 = await deff.downloadMediaMessage(encmedia)
              for (let _ of anu) {
-             deff.sendMessage(_.jid, { contentText: `*🔖 BROADCAST [ • BOTWEA • ] 🔖*\n\n${body.slice(4)}`, footerText: '©DEFF', buttons: [{ buttonId: `${prefix}command`, buttonText: { displayText: 'MENU' }, type: 1 }, { buttonId: `${prefix}owner`, buttonText: { displayText: 'OWNER' }, type: 1 }], headerType: 6, locationMessage: { degreesLatitude: 0, degreesLongitude: 0, jpegThumbnail: bc2 }}, 'buttonsMessage')
+             deff.sendMessage(_.jid, { contentText: `*🔖 BROADCAST [ • BOT WHATSAPP • ] 🔖*\n\n${body.slice(4)}`, footerText: '©VANZZ OFC', buttons: [{ buttonId: `${prefix}command`, buttonText: { displayText: 'MENU' }, type: 1 }, { buttonId: `${prefix}owner`, buttonText: { displayText: 'OWNER' }, type: 1 }], headerType: 6, locationMessage: { degreesLatitude: 0, degreesLongitude: 0, jpegThumbnail: bc2 }}, 'buttonsMessage')
 }
              reply('Suksess broadcast')
 }
@@ -4138,12 +4138,12 @@ var buttonss = [
 
 buttonMessagee = {
 contentText: ini_gopayy,
-footerText: `©DEFF` ,
+footerText: `©VANZZ OFC` ,
 buttons: buttonss,
 headerType: 1
 }
 deff.sendMessage(from,  buttonMessagee, MessageType.buttonsMessage,{
-        caption: '[ • BOTWEA • ]',
+        caption: '[ • BOT WHATSAPP • ]',
         "contextInfo": {
             text: 'hi',
             "forwardingScore": 1000000000,
@@ -4438,7 +4438,7 @@ if (!isUser) return sendButMessage(from, a, b, ton,{quoted : freply})
  
 timestampe = speed();
 latensie = speed() - timestampe
-reply(`「 *[ • BOTWEA • ]* 」\n //==[${latensie.toFixed(4)} detik 💬]==\\`)
+reply(`「 *[ • BOT WHATSAPP • ]* 」\n //==[${latensie.toFixed(4)} detik 💬]==\\`)
 break
 //=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×==×=×=×=×=×=×=×=×=×==×=×=×=×=×=×=×=×=×==×=×=×=×=×=×=×=×=×=×			
 case 'addcmd': 
@@ -4770,12 +4770,12 @@ var buttonss = [
 
 buttonMessagee = {
 contentText: ini_deff,
-footerText: `©DEFF` ,
+footerText: `©VANZZ OFC` ,
 buttons: buttonss,
 headerType: 1
 }
 deff.sendMessage(from,  buttonMessagee, MessageType.buttonsMessage,{
-        caption: '[ • BOTWEA • ]',
+        caption: '[ • BOT WHATSAPP • ]',
         "contextInfo": {
             text: 'hi',
             "forwardingScore": 1000000000,
