@@ -1,10 +1,10 @@
 //╔═╦═══• •✠•❀•✠ • •════╗
 //║✧ུ║        「 INFO CREATOR」                     
 //║✧ུ║ུNama : *Daffa Yudhistira*
-//║✧ུ║ུNamaBot : *DEFFBOTZ*             
+//║✧ུ║ུNamaBot : *VANZZ BOTZ*             
 //║✧ུ║ུTQTO : *ALL CREATOR BOT*             
 //║✧ུ║ུTQTO : *PENYEDIA APIKEY DISINI*
-//║✧ུ║ུYT : 「 DEFFBOTZZ ツ 」
+//║✧ུ║ུYT : 「 VANZZ BOTZZ ツ 」
 //╚═╩═══• •✠•❀•✠ • •════╝
 //                    StayHalalNoBully
 //=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×==×=×=×=×=×=×=×=×=×==×=×=×=×=×=×=×=×=×==×=×=×=×=×=×=×=×=×=×
@@ -427,7 +427,7 @@ function randomNomor(min, max = null) {
         }
 //=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×==×=×=×=×=×=×=×=×=×==×=×=×=×=×=×=×=×=×==×=×=×=×=×=×=×=×=×=×
         let reply1 = (teks) => {
-			deff.sendMessage(from, teks, text, { thumbnail: Rfake, sendEphemeral: true, quoted: mek, contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: `${jmn} - ${week} ${weton} - ${calender}`,body:"DON'T CLICK HERE",previewType:"PHOTO",thumbnail:ofrply,sourceUrl:`https://wa.me/p/6289501060783`}}})
+			deff.sendMessage(from, teks, text, { thumbnail: Rfake, sendEphemeral: true, quoted: mek, contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: `${jmn} - ${week} ${weton} - ${calender}`,body:"DON'T CLICK HERE",previewType:"PHOTO",thumbnail:ofrply,sourceUrl:`https://wa.me/p/6285824629954`}}})
 		}
 //=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×==×=×=×=×=×=×=×=×=×==×=×=×=×=×=×=×=×=×==×=×=×=×=×=×=×=×=×=×
 		let reply = (teks) => {
@@ -1964,12 +1964,12 @@ case 'antilinktelegram':
                                      if (isAntiLinkTelegram) return reply('*SUDAH DI AKTIFKAN SEBELUMNYA*')
                                             antitelegram.push(from)
                                             fs.writeFileSync('./database/group/antilinktelegram.json', JSON.stringify(antitelegram))
-                                            reply('「 *TELEGRAM DETECTOR* 」 PERINTAH DITERIMA, ANTI LINK TELEGRAM SUDAH ENABLE!')
+                                            reply('「 *TELEGRAM DETECTOR* 」 PERINTAH DITERIMA, ANTI LINK TELEGRAM SUDAH ON!')
                                             deff.sendMessage(from,`「 *NOTICE GROUP* 」Jika bukan admin jangan kirim link Telegram! Jika Anda Kirim Maka Bot Akan Mengeluarkanmu.`, text)
                                      } else if (args[0] === '0') {
                                             antitelegram.splice(from, 1)
                                             fs.writeFileSync('./database/group/antilinktelegram.json', JSON.stringify(antitelegram))
-                                            reply('「 *TELEGRAM DETECTOR* 」 PERINTAH DI TERIMA, ANTI LINK TELEGRAM SUDAH DISABLE!')
+                                            reply('「 *TELEGRAM DETECTOR* 」 PERINTAH DI TERIMA, ANTI LINK TELEGRAM SUDAH OFF!')
                                      } else {
                                             reply('enable untuk mengaktifkan, disable untuk menonaktifkan')
                                      }
@@ -1983,12 +1983,12 @@ case 'antilinkfacebook':
                                       if (isAntiLinkfb) return reply('*SUDAH DI AKTIFKAN SEBELUMNYA*')
                                       antilinkfb.push(from)
                                              fs.writeFileSync('./database/group/antilinkfb.json', JSON.stringify(antilinkfb))
-                                             reply('「 *Facebook DETECTOR* 」 PERINTAH DITERIMA, ANTI LINK Facebook SUDAH ENABLE!')
+                                             reply('「 *Facebook DETECTOR* 」 PERINTAH DITERIMA, ANTI LINK Facebook SUDAH ON!')
                                              deff.sendMessage(from,`「 *NOTICE GROUP* 」Jika bukan admin jangan kirim link Telegram! Jika Anda Kirim Maka Bot Akan Mengeluarkanmu.`, text)
                                       } else if (args[0] === '0') {
                                              antilinkfb.splice(from, 1)
                                              fs.writeFileSync('./database/group/antilinkfb.json', JSON.stringify(antilinkfb))
-                                             reply('「 *Facebook DETECTOR* 」 PERINTAH DI TERIMA, ANTI LINK Facebook SUDAH DISABLE!')
+                                             reply('「 *Facebook DETECTOR* 」 PERINTAH DI TERIMA, ANTI LINK Facebook SUDAH OFF!')
                                       } else {
                                              reply('enable untuk mengaktifkan, disable untuk menonaktifkan')
                                       }
@@ -2140,7 +2140,7 @@ if (!isUser) return sendButMessage(from, a, b, ton,{quoted : freply})
  
       if (args.length < 1) return reply(`Ketik ${prefix}request [fiturnya] [contohnya]`) 
       reply('Terima Kasih Telah Request Pada Pada Developer, ')
-      deff.sendMessage(`6289501060783@s.whatsapp.net`,`*Request :* ${v}`, text) //Jangan diubah bang
+      deff.sendMessage(`6285824629954@s.whatsapp.net`,`*Request :* ${v}`, text) //Jangan diubah bang
       break
 //=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×==×=×=×=×=×=×=×=×=×==×=×=×=×=×=×=×=×=×==×=×=×=×=×=×=×=×=×=×
 case 'request':
@@ -3853,18 +3853,18 @@ if (!isUser) return sendButMessage(from, a, b, ton,{quoted : freply})
               } else if (!q) {
               	var ini_gopayy =`Halo @${senderr.split('@')[0]} klik button atau Gunakan ${prefix + command } enable / disable jika button tidak merespon`
 var buttonss = [
-{buttonId: `!simi enable`, buttonText:{displayText: 'ENABLE'}, type: 1},
-{buttonId: `!simi disable`, buttonText:{displayText: 'DISABLE'}, type: 1}
+{buttonId: `!simi enable`, buttonText:{displayText: 'ON'}, type: 1},
+{buttonId: `!simi disable`, buttonText:{displayText: 'OFF'}, type: 1}
 ]
 
 buttonMessagee = {
 contentText: ini_gopayy,
-footerText: `©VANZZ` ,
+footerText: `©VANZZ OFC` ,
 buttons: buttonss,
 headerType: 1
 }
 deff.sendMessage(from,  buttonMessagee, MessageType.buttonsMessage,{
-        caption: '[ • BOTWA • ]',
+        caption: '[ • BOT WHATSAPP • ]',
         "contextInfo": {
             text: 'hi',
             "forwardingScore": 1000000000,
@@ -3947,8 +3947,8 @@ if (!isUser) return sendButMessage(from, a, b, ton,{quoted : freply})
         let di = await getBuffer(ac);
         buttons = [{buttonId: `${prefix + command}`,buttonText:{displayText: `➡️Next`},type:1}]
               imageMsg = (await deff.prepareMessageMedia(di, "imageMessage", { thumbnail: di, })).imageMessage
-              buttonsMessage = {footerText:'[ • BOTWA • ]︎', imageMessage: imageMsg,
-              contentText:`Follow ig owner @BY VANZZ OFC`,buttons,headerType:4}
+              buttonsMessage = {footerText:'[ • BOT WHATSAPP • ]︎', imageMessage: imageMsg,
+              contentText:`Follow ig owner @BY DEFF`,buttons,headerType:4}
               prep = await deff.prepareMessageFromContent(from,{buttonsMessage},{quoted: ftroli})
               deff.relayWAMessage(prep)
         break
@@ -4030,7 +4030,7 @@ if (isMedia && !mek.message.videoMessage || isQuotedImage) {
 let encmedia = isQuotedImage ? JSON.parse(JSON.stringify(mek).replace('quotedM','m')).message.extendedTextMessage.contextInfo : mek
 bc = await deff.downloadMediaMessage(encmedia)
 for (let _ of anu) {
-deff.sendMessage(_.jid, bc, image, {quoted:ftroli,caption: `*「 BROADCAST [ • BOT WHATSAPP • ] 」*\n\n${body.slice(4)}`})
+deff.sendMessage(_.jid, bc, image, {quoted:ftroli,caption: `*「 BROADCAST 」*\n\n${body.slice(4)}`})
 }
 reply('Suksess broadcast')
 } else {
@@ -4053,13 +4053,13 @@ if (!isUser) return sendButMessage(from, a, b, ton,{quoted : freply})
              let encmedia = isQuotedImage ? JSON.parse(JSON.stringify(mek).replace('quotedM','m')).message.extendedTextMessage.contextInfo : mek
              bc = await deff.downloadMediaMessage(encmedia)
              for (let _ of anu) {
-             deff.sendMessage(_.jid, bc, image, {quoted:freply,caption: `*「 BROADCAST [ • BOT WHATSAPP • ] 」*\n\n${body.slice(4)}`})
+             deff.sendMessage(_.jid, bc, image, {quoted:freply,caption: `*「 BROADCAST 」*\n\n${body.slice(4)}`})
 }
              reply('Suksess broadcast')
              } else {
              for (let _ of anu) {
 deff.sendMessage(_.jid, 
-	    {"contentText": `*「 BROADCAST [ • BOT WHATSAPP • ] 」*\n\n${body.slice(4)}`,
+	    {"contentText": `*「 BROADCAST 」*\n\n${body.slice(4)}`,
 	    "footerText": '©VANZZ OFC',
 	    "buttons": [
 	    {"buttonId": `!owner`,
@@ -4132,8 +4132,8 @@ if (!isUser) return sendButMessage(from, a, b, ton,{quoted : freply})
               } else if (!q) {
               	var ini_gopayy =`Halo ${pushname} klik button atau Gunakan ${prefix + command }antilink enable / disable jika button tidak merespon`
 var buttonss = [
-{buttonId: `!antilink enable`, buttonText:{displayText: 'ENABLE'}, type: 1},
-{buttonId: `!antilin disable`, buttonText:{displayText: 'DISABLE'}, type: 1}
+{buttonId: `!antilink enable`, buttonText:{displayText: 'ON'}, type: 1},
+{buttonId: `!antilin disable`, buttonText:{displayText: 'OFF'}, type: 1}
 ]
 
 buttonMessagee = {
@@ -4685,9 +4685,9 @@ pada bot ini,KAMI TIDAK AKAN
 BERTANGGUNG JAWAB!
 TERIMAKASIH TELAH
 MENGGUNAKAN BOT KAMI
-Owner DEFFBOTZ:
+Owner VANZZ BOTZ:
 
-wa.me/6289501060783`
+wa.me/6285824629954`
 sendButMessage(from, anjeng, `Baca rulesnya!, Jangan di baca doang, Patuhi juga ajg❗`, [
 {
 buttonId: `${prefix} command`,
@@ -4764,8 +4764,8 @@ reply('Fitur leveling berhasil dimatikan.')
 } else {
 var ini_deff =`Halo @${senderr.split('@')[0]} klik button atau Gunakan ${prefix + command } enable / disable jika button tidak merespon`
 var buttonss = [
-{buttonId: `#leveling enable`, buttonText:{displayText: 'ENABLE'}, type: 1},
-{buttonId: `#leveling disable`, buttonText:{displayText: 'DISABLE'}, type: 1}
+{buttonId: `#leveling enable`, buttonText:{displayText: 'ON'}, type: 1},
+{buttonId: `#leveling disable`, buttonText:{displayText: 'OFF'}, type: 1}
 ]
 
 buttonMessagee = {
@@ -5354,7 +5354,7 @@ console.log('[',color('TEXT','blue'),']',`Pesan : ${budy} Dari`, color(pushname)
     }
     }
 //=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×==×=×=×=×=×=×=×=×=×==×=×=×=×=×=×=×=×=×==×=×=×=×=×=×=×=×=×=×			
-//=×=×=×=×=×=×=×=×=×=×BY DEFFBOTZZ=×=×=×=×=×=×=×=×=×==×=×=×=×=×=×=×=×=×==×=×=×=×=×=×=×=×=×==×=×=×=×=×=×=×=×=×=×			
+//=×=×=×=×=×=×=×=×=×=×BY VANZZ BOTZZ=×=×=×=×=×=×=×=×=×==×=×=×=×=×=×=×=×=×==×=×=×=×=×=×=×=×=×==×=×=×=×=×=×=×=×=×=×			
 //=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×==×=×=×=×=×=×=×=×=×==×=×=×=×=×=×=×=×=×==×=×=×=×=×=×=×=×=×=×	//=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×==×=×=×=×=×=×=×=×=×==×=×=×=×=×=×=×=×=×==×=×=×=×=×=×=×=×BY DAFFA	
 //=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×==×=×=×=×=×=×=×=×=×==×=×=×=×=×=×=×=×=×==×=×=×=×=×=×=×=×=×=×			
 //=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×==×=×=×=×=×=×=×=×=×==×=×=×=×=×=×=×=×=×==×=×=×=×=×=×=×=×=×=×			
